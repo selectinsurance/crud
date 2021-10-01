@@ -10,7 +10,7 @@ header("Content-Type: JSON");
 switch ($_SERVER['REQUEST_METHOD']) {
     case 'POST':
         $_POST = json_decode(file_get_contents('php://input'), true);
-        //error_reporting(0);
+        //error_reporting(0); no mms guey
         echo $_POST;
         if (!empty($_POST['nombre']) && !empty($_POST['apellido'])) {
 
