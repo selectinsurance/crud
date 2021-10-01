@@ -35,7 +35,7 @@ switch ($_SERVER['REQUEST_METHOD']) {
                     //Recipients
                     $mail->setFrom('leads@selectinsurance.info', 'selectinsurance.info/' . $Valor);
                     //$mail->addAddress($rows['Email'], 'Web Site');     //Add a recipient
-                    $mail->addAddress('yvaldes.selectinsurance@gmail.com', 'Web Site');
+                    $mail->addAddress('selectinsurance210@gmail.com', 'Web Site');
                     //$mail->addAddress('ellen@example.com');               //Name is optional
                     //$mail->addReplyTo('info@example.com', 'Information');
                     //$mail->addCC('cc@example.com');
