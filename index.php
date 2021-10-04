@@ -27,13 +27,13 @@ switch ($_SERVER['REQUEST_METHOD']) {
                     $mail->isSMTP();                                            //Send using SMTP
                     $mail->Host       = 'smtpout.secureserver.net';                     //Set the SMTP server to send through 
                     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                    $mail->Username   = 'leads@selectinsurance.info';
+                    $mail->Username   = 'leadss@selectinsurance.info';
                     $mail->Password   = '$egurid@d2021';                               //SMTP password Miami2021!    Insurance2021*  leadselectinsurance@selectinsurance.info
                     //$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
                     $mail->Port       = 80;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS` 3535
 
                     //Recipients
-                    $mail->setFrom('leads@selectinsurance.info', 'selectinsurance.info/' . $Valor);
+                    $mail->setFrom('leadss@selectinsurance.info', 'selectinsurance.info/' . $Valor);
                     //$mail->addAddress($rows['Email'], 'Web Site');     //Add a recipient
                     $mail->addAddress('selectinsurance210@gmail.com', 'Web Site');
                     //$mail->addAddress('ellen@example.com');               //Name is optional
